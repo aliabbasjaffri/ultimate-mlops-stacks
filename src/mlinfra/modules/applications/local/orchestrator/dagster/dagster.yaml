@@ -1,0 +1,9 @@
+inputs:
+  - name: dagster_chart_version
+    user_facing: true
+    description: Version of the Dagster Helm chart to use-
+    default: "1.8.13"
+outputs:
+  - name: dagster_endpoint
+    description: Dagster access endpoint.
+    export: true
